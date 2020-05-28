@@ -1,0 +1,3 @@
+# Ignore some dependencies that not in demand
+node_modules/
+src/assets/scss/*
