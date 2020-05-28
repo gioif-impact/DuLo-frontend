@@ -1,1 +1,1 @@
-<?php include("src/"); ?>
+<?php ?>
