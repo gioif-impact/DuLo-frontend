@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    height: 90vh;
+    width: 100vw;
+    background-image: linear-gradient(0deg, #08AEEA 0%, #2AF598 100%);
+    clip-path: ellipse(200% 55% at 48% 44%);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.parallax {
+    height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

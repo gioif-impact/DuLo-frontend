@@ -1,0 +1,53 @@
+/* Navbar section */
+.nav-link {
+    font-size: 15px;
+    font-family: Marcellus, sans-serif;
+}
+.hoverNavLink {
+    position: relative;
+    overflow: hidden;
+    font-weight: 400;
+    margin: 0;
+    padding: 2px 5px;
+    font-size: 24px;
+    transition-delay: 0.3333s;
+    color: transparent;
+}
+
+.hoverNavLink::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 100%;
+    width: 100%;
+    height: 100%;
+    background: rgb(233, 232, 232);
+    transition: 0.3333s;
+}
+
+nav div ul li .nav-link:hover ~ .hoverNavLink::before{
+    z-index: 100;
+    right: 0%;
+}
+
+
+/* Header section */
+/* header {
+    height: 90vh;
+    width: 100vw;
+    background-image: linear-gradient(0deg, rgb(131, 157, 167) 0%, rgba(224, 204, 16, 0.335) 100%);
+    clip-path: ellipse(200% 55% at 48% 44%);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+} */
+
+.parallax {
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    
+}

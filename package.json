@@ -5,9 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build-sass": "sass src/assets/scss/styles.scss src/assets/css/styles.css",
-    "build-bootstrap": "mkdir -p src/assets/plugin/bootstrap ; cp node_modules/bootstrap/dist/js/bootstrap.bundle.min.js src/assets/plugin/bootstrap/ ; cp node_modules/bootstrap/dist/css/bootstrap.min.css src/assets/plugin/bootstrap/",
-    "build-jquery": "mkdir -p src/assets/plugin/jquery ; cp node_modules/jquery/dist/jquery.min.js src/assets/plugin/jquery/",
+    "build-sass": "sass assets/scss/styles.scss assets/css/styles.css",
+    "build-bootstrap": "mkdir -p assets/plugin/bootstrap ; cp node_modules/bootstrap/dist/js/bootstrap.bundle.min.js assets/plugin/bootstrap/ ; cp node_modules/bootstrap/dist/css/bootstrap.min.css assets/plugin/bootstrap/",
+    "build-jquery": "mkdir -p assets/plugin/jquery ; cp node_modules/jquery/dist/jquery.min.js assets/plugin/jquery/",
     "build-app": "run-p --aggregate-output build-bootstrap build-jquery build-sass"
   },
   "repository": {
